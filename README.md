@@ -47,3 +47,15 @@ Clone this repository and verify your local routing performance directly:
 git clone [https://github.com/saraiptvcanada-ctrl/iptv-canada-stream-benchmark.git](https://github.com/saraiptvcanada-ctrl/iptv-canada-stream-benchmark.git)
 cd iptv-canada-stream-benchmark
 python benchmark.py --region CA-Central
+
+Benchmarked Metrics:
+Round-Trip Time (RTT): Validates transit delay to local Canadian exchange nodes (TorIX Toronto & QIX Montreal).
+
+Stream Segment Delivery: Analyzes HLS/TS chunk delivery intervals.
+
+Packet Loss Detection: Monitors evening bandwidth shaping on Canadian ISP lines.
+
+Resources & Documentation
+Official Infrastructure Portal: iptvmn.ca
+
+Canadian Internet Registration Authority (CIRA) Network Guidelines
